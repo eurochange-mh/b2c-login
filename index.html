@@ -11,8 +11,11 @@
         --error: #fb5373;
         --background: #0f131f;
       }
+      body {
+        background-color: var(--background);
+      }
       #api {
-        background-color: white;
+        background-color: var(--secondary);
         color: var(--text);
       }
       form {
@@ -21,14 +24,18 @@
       form ul {
         padding-inline-start: 0;
       }
-      form label, input {
+      form label {
+        margin-bottom: 2rem;
+      }
+      form input {
+        color: var(--secondary);
         margin-bottom: 2rem;
       }
       form buttons {
         border-radius: 0;
       }
       form button:first-child {
-        background-color: var(secondary);
+        background-color: var(--secondary);
         color: white;
       }
       form button {
