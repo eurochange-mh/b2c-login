@@ -32,34 +32,37 @@
       form .attrEntry {
         margin-top: 1rem;
       }
-      form .attrEntry * {
-        margin-bottom: 1rem;
+      form .attrEntry:first-child {
+        margin-bottom: 1.5rem;
       }
       form label {
         color: var(--secondary);
         font-size: 1.4rem;
+        margin-bottom: 0.5rem;
       }
       form input {
         color: var(--text-dark);
         padding: 0.5rem;
         min-width: 12rem;
+        margin-bottom: 1rem;
       }
       .helpLink {
         color: var(--text-light);
         display: block;
+        margin-bottom: 1rem;
       }
       .tiny {
         font-size: 0.7rem;
       }
-      form buttons {
-        border-radius: 0;
-        margin-top:2rem;
+      form .buttons {
+        margin-top: 2rem;
       }
       form button:first-child {
         background-color: var(--secondary);
         color: white;
       }
       form button {
+          border-radius: 0;
           display: block;
           margin-top: 1rem;
           padding: 0.5rem;
@@ -75,7 +78,6 @@
 
     <div id="api" data-name="SelfAsserted">
 
-      <!--
       <div class="buttons">
       </div>
       
@@ -102,7 +104,6 @@
               <div id="verifying_blurb"></div>
           </div>
       </form>
-    -->
     
   </div>
     
